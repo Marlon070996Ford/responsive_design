@@ -12,7 +12,7 @@
 
 .header {
     grid-area: header;
-    background-color:aqua;
+    background-color: steelblue;
 }
 
 .nav {
@@ -44,4 +44,26 @@
     grid-area: footer;
     background-color: teal;
 
+}
+
+body {
+    background-color: springgreen;
+}
+
+@media (min-width:1040px){
+    body {
+        background-color: orange;
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        background-color: royalblue;
+    }
+}
+
+@media (max-width:375px) {
+    body {
+        background-color: crimson;
+    }
 }
